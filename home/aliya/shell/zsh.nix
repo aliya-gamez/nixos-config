@@ -7,7 +7,7 @@
     # Config
     enableCompletion = true;
     enableBashCompletion = true;
-    autosuggestions.enable = true;
+    autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
 
     # Aliases
