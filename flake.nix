@@ -47,7 +47,7 @@
               home-manager.extraSpecialArgs = inputs // specialArgs;
               home-manager.users.${username} = {
                 imports = [
-                  ./home/${username};
+                  ./home/${username}
                   catppuccin.homeModules.catppuccin
                 ];
               };
