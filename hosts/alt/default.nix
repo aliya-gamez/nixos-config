@@ -7,8 +7,8 @@
     # Desktop
     ../../modules/desktop/gnome.nix
 
-	# Services
-	../../modules/services/docker.nix
+    # Services
+    ../../modules/services/docker.nix
   ];
 
   # Bootloader.
@@ -19,11 +19,13 @@
   networking.hostName = "alt"; # Define your hostname.
   networking.networkmanager.enable = true;
 
-  # User accounts
+  # User accounts and shell configuration
+  programs.zsh.enable = true;
   users.users."aliya" = {
     isNormalUser = true;
     description = "Aliya Gamez";
     extraGroups = [ "networkmanager" "wheel" ];
+    shell = pkgs.zsh; #shell
     packages = with pkgs; [];
   };
 
