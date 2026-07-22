@@ -4,9 +4,9 @@
   # git
   programs.git = {
     enable = true;
-    userName = "Aliya Gamez";
-    userEmail = "contact@aliyagamez.com";
     settings = {
+      user.name = "Aliya Gamez";
+      user.email = "contact@aliyagamez.com";
       init.defaultBranch = "main";
     };
   };

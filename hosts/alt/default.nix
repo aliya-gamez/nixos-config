@@ -38,6 +38,8 @@
     micro
 
     # GNOME
+    nautilus
+    gnome-control-center
   ];
   environment.variables.EDITOR = "micro";
 
