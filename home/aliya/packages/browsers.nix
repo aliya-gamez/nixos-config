@@ -2,7 +2,7 @@
 
 {
   programs = {
-    chromium = {
+    google-chrome = {
       enable = true;
     };
   };
