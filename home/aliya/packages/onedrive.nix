@@ -17,17 +17,4 @@
       rate_limit = "0";
     };
   };
-
-  systemd.user.services.onedrive = {
-    Unit = {
-      Description = "OneDrive Client";
-      After = [ "network-online.target" ];
-      Wants = [ "network-online.target" ];
-    };
-    Service = {
-      Restart = "on-failure";
-      RestartSec = 10;
-    };
-    Install.WantedBy = [ "default.target" ];
-  };
 }
