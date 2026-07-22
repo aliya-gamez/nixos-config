@@ -45,8 +45,16 @@
               home-manager.useUserPackages = true;
 
               home-manager.extraSpecialArgs = inputs // specialArgs;
-              home-manager.users.${username} = import ./home/${username};
+              home-manager.users.${username} = }
+                imports = [
+                  ./home/${username};
+                  catppuccin.homeModules.catppuccin
+                ];
+              };
 	 	        }
+
+            # catppuccin
+
 	 	      ];
 	 	      
         };    			
