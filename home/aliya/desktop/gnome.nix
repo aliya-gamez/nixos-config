@@ -29,6 +29,12 @@
         click-method = "areas";
       };
 
+      # Mouse
+      "org/gnome/desktop/peripherals/mouse" = {
+        accel-profile = flat;
+        speed = -0.7;
+      };
+
       ### Settings Daemon
 
       # Keyboard shortcuts
