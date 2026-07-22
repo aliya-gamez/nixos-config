@@ -42,6 +42,7 @@
 	# GNOME Extensions
 	gnomeExtensions.dash-to-dock
 	gnomeExtensions.vitals
+	gnomeExtensions.caffeine
   ];
   environment.variables.EDITOR = "micro";
 
