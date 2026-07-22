@@ -6,6 +6,9 @@
 
     # Desktop
     ../../modules/desktop/gnome.nix
+
+	# Services
+	../../modules/services/docker.nix
   ];
 
   # Bootloader.
@@ -75,5 +78,4 @@
 
   # NixOS Version
   system.stateVersion = "26.05";
-
 }
