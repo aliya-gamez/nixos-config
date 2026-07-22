@@ -6,7 +6,6 @@
 
     # Config
     enableCompletion = true;
-    enableBashCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
 
