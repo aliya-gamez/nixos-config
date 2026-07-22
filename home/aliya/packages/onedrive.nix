@@ -16,5 +16,10 @@
       disable_notifications = "false";
       rate_limit = "0";
     };
+
+    daemon = {
+      enable = true;
+      type = "monitor";
+    };
   };
 }
