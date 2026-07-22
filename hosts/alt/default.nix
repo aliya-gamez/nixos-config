@@ -3,7 +3,9 @@
 {
   imports = [ 
     ./hardware-configuration.nix 
-    ../modules/desktop/gnome.nix
+
+    # Desktop
+    ../../modules/desktop/gnome.nix
   ];
 
   # Bootloader.
