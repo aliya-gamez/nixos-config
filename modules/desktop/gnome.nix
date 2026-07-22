@@ -13,6 +13,7 @@
 
   # Re-add some GNOME
   environment.systemPackages= with pkgs; [
+    
     # GNOME
     nautilus
     gnome-control-center
@@ -23,5 +24,6 @@
     gnomeExtensions.caffeine
     gnomeExtensions.blur-my-shell
     gnomeExtensions.arcmenu
+
   ];
 }
