@@ -36,10 +36,15 @@
   	git
   	wget
     micro
-
     # GNOME
     nautilus
     gnome-control-center
+	# GNOME Extensions
+	gnomeExtensions [
+		dash-to-dock
+		vitals
+	]
+	
   ];
   environment.variables.EDITOR = "micro";
 
