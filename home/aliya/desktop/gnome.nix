@@ -77,6 +77,10 @@
             "dash-to-dock@micxgx.gmail.com"
           ];
       };
+	  # Extension: Dash to Dock
+	  "org/gnome/shell/extensions/dash-to-dock" = {
+		dock-fixed = true;
+	  };
 
     };
   };
