@@ -12,6 +12,7 @@
 
     # Services
     ../../modules/services/docker.nix
+    #../../modules/services/postgre.sql
 
     # Themes
     #../../modules/themes/catppuccin
