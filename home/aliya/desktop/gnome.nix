@@ -54,8 +54,9 @@
       };
 
       # Nightlight
-      "/org/gnome/settings-daemon/plugins/color" = {
+      "org/gnome/settings-daemon/plugins/color" = {
         night-light-enabled = true;
+		night-light-temperature = 3800;
       };
 
       ### Nautilus
