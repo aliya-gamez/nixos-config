@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   programs.onedrive = {
@@ -17,9 +17,17 @@
       rate_limit = "0";
     };
 
-    daemon = {
-      enable = true;
-      type = "monitor";
+  systemd.user.services.onedrive = {
+    Unit = {
+      Description = "OneDrive Client";
+      After = [ "network-online.target" ];
+      Wants = [ "network-online.target" ];
     };
+    Service = {
+      Restart = "on-failure";
+      RestartSec = 10;
+    };
+    Install.WantedBy = [ "default.target" ];
+  };
   };
 }
