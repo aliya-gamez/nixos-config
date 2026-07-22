@@ -35,6 +35,17 @@
         speed = -0.7;
       };
 
+      ### Gnome Shell
+      "org/gnome/shell" = {
+        favorite-apps = [
+          "org.gnome.Nautilus.desktop"
+          "com.mitchellh.ghostty.desktop"
+          "google-chrome.desktop"
+          "code.desktop"
+          "spotify.desktop"
+        ];
+      };
+
       ### Settings Daemon
 
       # Keyboard shortcuts
