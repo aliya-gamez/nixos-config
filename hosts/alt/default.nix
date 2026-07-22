@@ -1,7 +1,10 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ ./hardware-configuration.nix ];
+  imports = [ 
+    ./hardware-configuration.nix 
+    ../modules/desktop/gnome.nix
+  ];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -39,10 +42,10 @@
     # GNOME
     nautilus
     gnome-control-center
-	# GNOME Extensions
-	gnomeExtensions.dash-to-dock
-	gnomeExtensions.vitals
-	gnomeExtensions.caffeine
+    # GNOME Extensions
+    gnomeExtensions.dash-to-dock
+    gnomeExtensions.vitals
+    gnomeExtensions.caffeine
   ];
   environment.variables.EDITOR = "micro";
 
