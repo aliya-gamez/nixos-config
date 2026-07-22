@@ -31,7 +31,7 @@
 
       # Mouse
       "org/gnome/desktop/peripherals/mouse" = {
-        accel-profile = flat;
+        accel-profile = "flat";
         speed = -0.7;
       };
 
@@ -62,7 +62,7 @@
       # Nightlight
       "org/gnome/settings-daemon/plugins/color" = {
         night-light-enabled = true;
-		night-light-temperature = 4350;
+		    night-light-temperature = 4350;
       };
 
       ### Nautilus
