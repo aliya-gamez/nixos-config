@@ -1,7 +1,7 @@
 { config, inputs, pkgs, ... }:
 
 {
-  #imports = [inputs.catppuccin.homeManagerModules.catppuccin];
+  imports = [inputs.catppuccin.homeManagerModules.catppuccin];
   gtk = {
     enable = true;
 
