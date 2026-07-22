@@ -1,13 +1,10 @@
-{ config, inputs, pkgs, ... }:
+{ options, inputs, pkgs, ... }:
 
 {
   imports = [inputs.catppuccin.homeModules.catppuccin];
-  config = {
+  options = {
     catppuccin = {
       autoEnable = true;
-
-      flavor = "mocha";
-      accent = "pink";
     };
   };
 }
