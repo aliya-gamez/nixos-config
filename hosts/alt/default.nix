@@ -9,6 +9,9 @@
 
     # Services
     ../../modules/services/docker.nix
+
+    # Themes
+    ../../modules/themes/catppuccin
   ];
 
   # Bootloader.
