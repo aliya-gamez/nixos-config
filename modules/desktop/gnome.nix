@@ -20,5 +20,6 @@
     gnomeExtensions.dash-to-dock
     gnomeExtensions.vitals
     gnomeExtensions.caffeine
+    gnomeExtensions.blur-my-shell
   ];
 }
