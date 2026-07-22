@@ -29,6 +29,15 @@
     packages = with pkgs; [];
   };
 
+  # Reduce Disk Space
+  boot.loader.systemd-boot.configurationLimit = 10;
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 7d";
+  };
+  nix.settings.auto-optimise-store = true;
+
   # Packages
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
