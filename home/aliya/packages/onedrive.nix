@@ -16,6 +16,7 @@
       disable_notifications = "false";
       rate_limit = "0";
     };
+  };
 
   systemd.user.services.onedrive = {
     Unit = {
@@ -28,6 +29,5 @@
       RestartSec = 10;
     };
     Install.WantedBy = [ "default.target" ];
-  };
   };
 }
