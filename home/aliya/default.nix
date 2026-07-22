@@ -4,6 +4,7 @@
     ./desktop
     ./development
 		./packages
+    ./programs
     ./shell
 	];
 }

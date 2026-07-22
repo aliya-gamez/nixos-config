@@ -23,7 +23,6 @@
     gnomeExtensions.vitals
     gnomeExtensions.caffeine
     gnomeExtensions.blur-my-shell
-    gnomeExtensions.arcmenu
-
+    
   ];
 }

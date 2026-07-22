@@ -7,6 +7,9 @@
     # Desktop
     ../../modules/desktop/gnome.nix
 
+    # Programs
+    ../../moduleus/programs/spotify.nix
+
     # Services
     ../../modules/services/docker.nix
 

@@ -44,6 +44,12 @@
           "_voltage_bat0_in0_"
         ];
       };
+
+	  # Extension: Caffeine
+	  "org/gnome/shell/extensions/caffeine" = {
+      restore-state = true;
+      cli-toggle = true;
+	  };
       
     };
   };
