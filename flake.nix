@@ -30,7 +30,7 @@
     	### START aliya laptop
     	alt = let
     		username = "aliya";
-    		specialArgs = {inherit username;};
+    		specialArgs = {inherit inputs username;};
     	in
 	    	nixpkgs.lib.nixosSystem {
 	    		inherit specialArgs;
