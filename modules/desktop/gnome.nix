@@ -22,7 +22,6 @@
     gnomeExtensions.vitals
     gnomeExtensions.caffeine
     gnomeExtensions.blur-my-shell
-    # GTK
-    catppuccin-gtk
+    gnomeExtensions.arcmenu
   ];
 }

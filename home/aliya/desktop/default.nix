@@ -1,7 +1,8 @@
 {
   imports = [
     #./catppuccin.nix
-    ./gnome.nix
+	./gnome-extensions.nix
+    ./gnome-settings.nix
     #./gtk.nix
   ];
 }
