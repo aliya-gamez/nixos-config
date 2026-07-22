@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  programs.vscodium = {
+  programs.vscode = {
     enable = true;
   };
 }
