@@ -40,11 +40,8 @@
     nautilus
     gnome-control-center
 	# GNOME Extensions
-	gnomeExtensions [
-		dash-to-dock
-		vitals
-	]
-	
+	gnomeExtensions.dash-to-dock
+	gnomeExtensions.vitals
   ];
   environment.variables.EDITOR = "micro";
 
