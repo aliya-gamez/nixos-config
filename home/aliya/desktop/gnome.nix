@@ -54,7 +54,7 @@
       };
 
       # Nightlight
-      "/org/gnome/settings-daemon/plugins/color" {
+      "/org/gnome/settings-daemon/plugins/color" = {
         night-light-enabled = true;
       }
 
