@@ -19,12 +19,22 @@
     packages = with pkgs; [];
   };
 
+  # GNOME Desktop Environment
+  services.desktopManager.gnome.enable = true;
+  services.gnome.core-apps.enable = false;
+  services.gnome.core-developer-tools.enable = false;
+  services.gnome.games.enable = false;
+
   # Packages
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
+
+    # Terminal
   	git
   	wget
     micro
+
+    # GNOME
   ];
   environment.variables.EDITOR = "micro";
 
