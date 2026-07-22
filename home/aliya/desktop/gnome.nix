@@ -92,7 +92,7 @@
       };
 
       # Extension: Vitals
-      "/org/gnome/shell/extensions/vitals" = {
+      "org/gnome/shell/extensions/vitals" = {
         alphabetize = false;
         use-higher-precision = true;
         fixed-widths = false;
