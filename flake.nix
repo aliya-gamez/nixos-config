@@ -6,7 +6,10 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
     # catppuccin
-    catppuccin.url = "github:catppuccin/nix/release-26.05";
+    catppuccin = {
+      url = "github:catppuccin/nix/release-26.05";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
 		# home manager
 		home-manager = {
@@ -20,7 +23,6 @@
   	nixpkgs,
     catppuccin,
   	home-manager,
-    
   	... 
   } @ inputs: {
 
@@ -49,7 +51,6 @@
               home-manager.users.${username} = {
                 imports = [
                   ./home/${username}
-                  catppuccin.homeModules.catppuccin
                 ];
               };
 	 	        }

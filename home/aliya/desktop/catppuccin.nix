@@ -1,10 +1,9 @@
-{ options, inputs, pkgs, ... }:
+{ config,inputs, ... }:
 
 {
-  imports = [inputs.catppuccin.homeModules.catppuccin];
-  options = {
-    catppuccin = {
-      autoEnable = true;
-    };
+  imports = [ inputs.catppuccin.homeModules.catppuccin ];
+
+  catppuccin = {
+    enable = true;
   };
 }
