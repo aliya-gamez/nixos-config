@@ -16,6 +16,7 @@
     # GNOME
     nautilus
     gnome-control-center
+    gnome-tweaks
     # GNOME Extensions
     gnomeExtensions.dash-to-dock
     gnomeExtensions.vitals
