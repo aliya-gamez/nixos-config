@@ -102,7 +102,7 @@
 			'__network-rx_max__',
 			'__network-tx_max__',
 			'_voltage_bat0_in0_'
-		]
+		];
 	  };
 
     };
