@@ -1,6 +1,7 @@
-{ pkgs, ... }:
+{ imports, pkgs, ... }:
 
 {
+  imports = [inputs.catppuccin.homeManagerModules.catppuccin];
   gtk = {
     enable = true;
 

@@ -1,6 +1,7 @@
 {
   dconf.settings = {
 
+    /*
     # Catppuccin Theme
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
@@ -8,6 +9,7 @@
       icon-theme = "Papirus-Dark";
       cursor-theme = "Bibata-Modern-Ice";
     };
+    */
 
   };
 }
