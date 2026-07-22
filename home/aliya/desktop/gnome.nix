@@ -80,6 +80,14 @@
 	  # Extension: Dash to Dock
 	  "org/gnome/shell/extensions/dash-to-dock" = {
 		dock-fixed = true;
+		dash-max-icon-size = 32;
+		show-trash = false;
+		click-action = "minimize-or-overview";
+
+		transparency-mode = "DYNAMIC";
+		customize-alphas = "true";
+		min-alpha = 0.35;
+		max-alpha = 0.70;
 	  };
 
     };
