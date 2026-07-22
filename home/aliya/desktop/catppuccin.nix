@@ -8,11 +8,6 @@
 
       flavor = "mocha";
       accent = "pink";
-
-      cursors = {
-        enable = isGui;
-        accent = "dark";
-      };
-    }
-  }
+    };
+  };
 }
