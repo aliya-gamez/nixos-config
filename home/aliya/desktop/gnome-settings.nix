@@ -43,6 +43,7 @@
           "google-chrome.desktop"
           "code.desktop"
           "spotify.desktop"
+          "teams-for-linux.desktop"
         ];
       };
 
