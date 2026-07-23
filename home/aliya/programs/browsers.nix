@@ -1,4 +1,4 @@
-{ username, pkgs, lib, ... }:
+{ pkgs, ... }:
 
 {
   programs = {
@@ -40,14 +40,7 @@
         DontCheckDefaultBrowser       = true;
         HardwareAcceleration          = false;
         OfferToSaveLogins             = false;
-        DefaultDownloadDirectory      = "/home/${username}/Downloads";
-        
-      };
-
-      profiles.default.search = {
-        force           = true;
-        default         = "DuckDuckGo";
-        privateDefault  = "DuckDuckGo";
+        DefaultDownloadDirectory      = "/home/aliya/Downloads";
       };
     };
   };
