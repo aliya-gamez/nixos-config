@@ -15,9 +15,14 @@
   	# nixpgs
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
 
-    # catppuccin
+    /* catppuccin
     catppuccin = {
       url = "github:catppuccin/nix/release-26.05";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };*/
+
+    hyprland = {
+      url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -31,7 +36,6 @@
   outputs = { 
   	self, 
   	nixpkgs,
-    catppuccin,
   	home-manager,
   	... 
   } @ inputs: {
