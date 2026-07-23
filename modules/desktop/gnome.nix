@@ -18,6 +18,7 @@
     nautilus
     gnome-control-center
     gnome-tweaks
+    gnome-system-monitor
     # GNOME Extensions
     gnomeExtensions.dash-to-dock
     gnomeExtensions.vitals
