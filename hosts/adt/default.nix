@@ -15,6 +15,9 @@
     ../../modules/services/docker.nix
     ../../modules/services/postgresql.nix
 
+	# System
+	../../modules/system
+
     # Themes
     #../../modules/themes/catppuccin
   ];
