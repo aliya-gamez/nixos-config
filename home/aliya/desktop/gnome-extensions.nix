@@ -12,7 +12,6 @@
             "Vitals@CoreCoding.com"
             "caffeine@patapon.info"
             "dash-to-dock@micxgx.gmail.com"
-            "blur-my-shell@aunetx"
           ];
       };
 
