@@ -15,6 +15,12 @@
         clock-show-weekday = true;
         enable-hot-corners = false;
         enable-animations = false;
+        clock-format = "12h";
+      };
+
+      # Window Manager
+      "org/gnome/desktop/wm/preferences" = {
+        num-workspaces = 1;
       };
 
       # Background

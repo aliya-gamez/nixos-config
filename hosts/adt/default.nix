@@ -49,26 +49,10 @@
   # Packages
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    # Terminal
   	git
-  	wget
-    micro
+    vim
   ];
   environment.variables.EDITOR = "micro";
-
-  # Enable VS Code Server
-  programs.nix-ld.enable = true;
-
-  # SSH
-	services.openssh = {
-		enable = true;
-		settings = {
-			X11Forwarding = true;
-			PermitRootLogin = "no";
-			PasswordAuthentication = false;
-		};
-		ports = [ 22 ];
-	};  
 
   # Time/Locale info
   time.timeZone = "America/New_York";
