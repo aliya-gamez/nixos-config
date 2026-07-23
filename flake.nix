@@ -54,12 +54,38 @@
                 ];
               };
 	 	        }
-
-            # catppuccin
-
 	 	      ];
-	 	      
-        };    			
+        };   
+      ### END aliya laptop
+
+      ### START aliya desktop
+      adt = let
+    		username = "aliya";
+    		specialArgs = {inherit inputs username;};
+    	in
+	    	nixpkgs.lib.nixosSystem {
+	    		inherit specialArgs;
+	    		system = "x86_64-linux";
+	    		
+	 	      modules = [
+	 	        ./hosts/adt
+            
+	 	        # home manager
+	 	        home-manager.nixosModules.home-manager 
+	 	        {
+	 	          home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+
+              home-manager.extraSpecialArgs = inputs // specialArgs;
+              home-manager.users.${username} = {
+                imports = [
+                  ./home/${username}
+                ];
+              };
+	 	        }
+	 	      ];
+        };
+      ### END aliya desktop  			
     };
     
   };
