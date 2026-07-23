@@ -1,6 +1,6 @@
 {
   imports = [
-    ./browsers.nix
+    ./code-editors.nix
     ./git.nix
     ./onedrive.nix
     ./terminal.nix

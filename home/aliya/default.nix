@@ -5,6 +5,5 @@
     ./development
 		./packages
     ./programs
-    ./shell
 	];
 }

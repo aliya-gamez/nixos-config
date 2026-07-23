@@ -1,6 +1,6 @@
 {
 	imports = [
-    ./code-editors.nix
+    ./git.nix
 		./python.nix
 	];
 }
