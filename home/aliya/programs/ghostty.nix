@@ -5,9 +5,8 @@
     enable = true;
 
     settings = {
-      background-opacity = 0.90;
-      window-padding-x = "4,4";
-
+      background-opacity = 1.0;
+      window-padding-x = "8,6";
       shell-integration = "none";
     };
   };
