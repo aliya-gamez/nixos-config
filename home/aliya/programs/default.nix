@@ -3,7 +3,7 @@
     ./browsers.nix
     ./ghostty.nix
     ./neovim.nix
-    ./onedrive.nix
+    # disabled ./onedrive.nix
     ./zsh.nix
   ];
 }
