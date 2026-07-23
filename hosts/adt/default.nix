@@ -6,6 +6,7 @@
 
     # Desktop
     ../../modules/desktop/gnome.nix
+    ../../modules/desktop/hyprland
 
     # Programs
     ../../modules/programs/spotify.nix
@@ -15,8 +16,8 @@
     ../../modules/services/docker.nix
     ../../modules/services/postgresql.nix
 
-	# System
-	../../modules/system
+    # System
+    ../../modules/system
 
     # Themes
     #../../modules/themes/catppuccin
