@@ -9,6 +9,7 @@
 
     # Programs
     ../../modules/programs/spotify.nix
+    ../../modules/programs/teams.nix
 
     # Services
     ../../modules/services/docker.nix
