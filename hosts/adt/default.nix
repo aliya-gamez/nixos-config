@@ -6,8 +6,6 @@
 
     # Desktop
     ../../modules/desktop/gnome.nix
-    ../../modules/desktop/hyprland
-    ../../home/aliya/desktop/hyprland #test
 
     # Programs
     ../../modules/programs/spotify.nix
